@@ -1,0 +1,16 @@
+body {
+  background: rgb(2, 0, 36);
+  background: linear-gradient(
+    90deg,
+    rgba(2, 0, 36, 1) 0%,
+    rgba(101, 10, 124, 1) 66%,
+    rgba(0, 212, 255, 1) 100%
+  );
+}
+
+.flex-center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+}
