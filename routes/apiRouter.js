@@ -1,7 +1,7 @@
 const express = require("express");
 const apiRouter = express.Router();
 
-const endpoint = "/api";
+const endpoint = "/";
 const knex = require("knex")({
   client: "pg",
   debug: true,
